@@ -7,6 +7,8 @@
 
 Клонируйте репозиторий:
 
+Link to Netlify: https://countdown-timer-vanilla-js-app.netlify.app/
+
 1) git clone <https://github.com/volodymyr-pichkov/countdown-timer-app.git>
 2) cd <countdown-timer-app>
 3) Run a live server
