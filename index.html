@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Countdown Timer с кругами</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="countdown">
+    <div class="circle-container" id="days">
+      <svg>
+        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
+        <circle class="circle-progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="339.292"></circle>
+      </svg>
+      <div class="label">
+        <div class="value">0</div>
+        <div class="unit">Дней</div>
+      </div>
+    </div>
+    <div class="circle-container" id="hours">
+      <svg>
+        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
+        <circle class="circle-progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="339.292"></circle>
+      </svg>
+      <div class="label">
+        <div class="value">0</div>
+        <div class="unit">Часов</div>
+      </div>
+    </div>
+    <div class="circle-container" id="minutes">
+      <svg>
+        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
+        <circle class="circle-progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="339.292"></circle>
+      </svg>
+      <div class="label">
+        <div class="value">0</div>
+        <div class="unit">Минут</div>
+      </div>
+    </div>
+    <div class="circle-container" id="seconds">
+      <svg>
+        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
+        <circle class="circle-progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="339.292"></circle>
+      </svg>
+      <div class="label">
+        <div class="value">0</div>
+        <div class="unit">Секунд</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
