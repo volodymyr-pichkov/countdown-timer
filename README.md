@@ -1,13 +1,13 @@
+Link to Netlify: https://countdown-timer-vanilla-js-app.netlify.app/
+
 # Countdown Timer Vanilla JS
 
-## Описание
-Это простой таймер обратного отсчёта до выбранной даты. Таймер показывает, сколько дней, часов, минут и секунд осталось и отображает это в виде круговых индикаторов.
+## Description
+This is a simple countdown timer to a selected date. The timer shows how many days, hours, minutes and seconds are left and displays this in the form of circular indicators.
 
-## Установка и запуск
+## Install
 
-Клонируйте репозиторий:
-
-Link to Netlify: https://countdown-timer-vanilla-js-app.netlify.app/
+Clone repository:
 
 1) git clone <https://github.com/volodymyr-pichkov/countdown-timer-app.git>
 2) cd <countdown-timer-app>
