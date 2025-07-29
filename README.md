@@ -10,5 +10,5 @@ This is a simple countdown timer to a selected date. The timer shows how many da
 Clone repository:
 
 1) git clone <https://github.com/volodymyr-pichkov/countdown-timer-app.git>
-2) cd <countdown-timer-app>
+2) cd <countdown-timer>
 3) Run a live server

@@ -1,57 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Countdown Timer</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2 class="countdown__title">Left until the New Year</h2>
 
-  <h2>Left until the new year</h2>
-  <div class="countdown">
-    <div class="circle-container" id="days">
-      <svg>
-        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
-        <circle class="circle-progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="339.292"></circle>
-      </svg>
-      <div class="label">
-        <div class="value">0</div>
-        <div class="unit">Days</div>
+    <div class="countdown">
+      <div class="countdown__item countdown__item--days">
+        <svg class="countdown__circle">
+          <circle class="countdown__circle-bg" cx="60" cy="60" r="54"></circle>
+          <circle
+            class="countdown__circle-progress"
+            cx="60"
+            cy="60"
+            r="54"
+            stroke-dasharray="339.292"
+            stroke-dashoffset="339.292"
+          ></circle>
+        </svg>
+        <div class="countdown__label">
+          <div class="countdown__value">0</div>
+          <div class="countdown__unit">Days</div>
+        </div>
       </div>
-    </div>
-    <div class="circle-container" id="hours">
-      <svg>
-        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
-        <circle class="circle-progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="339.292"></circle>
-      </svg>
-      <div class="label">
-        <div class="value">0</div>
-        <div class="unit">Hours</div>
-      </div>
-    </div>
-    <div class="circle-container" id="minutes">
-      <svg>
-        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
-        <circle class="circle-progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="339.292"></circle>
-      </svg>
-      <div class="label">
-        <div class="value">0</div>
-        <div class="unit">Minutes</div>
-      </div>
-    </div>
-    <div class="circle-container" id="seconds">
-      <svg>
-        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
-        <circle class="circle-progress" cx="60" cy="60" r="54" stroke-dasharray="339.292" stroke-dashoffset="339.292"></circle>
-      </svg>
-      <div class="label">
-        <div class="value">0</div>
-        <div class="unit">Seconds</div>
-      </div>
-    </div>
-  </div>
 
-  <script src="main.js"></script>
-</body>
+      <div class="countdown__item countdown__item--hours">
+        <svg class="countdown__circle">
+          <circle class="countdown__circle-bg" cx="60" cy="60" r="54"></circle>
+          <circle
+            class="countdown__circle-progress"
+            cx="60"
+            cy="60"
+            r="54"
+            stroke-dasharray="339.292"
+            stroke-dashoffset="339.292"
+          ></circle>
+        </svg>
+        <div class="countdown__label">
+          <div class="countdown__value">0</div>
+          <div class="countdown__unit">Hours</div>
+        </div>
+      </div>
+
+      <div class="countdown__item countdown__item--minutes">
+        <svg class="countdown__circle">
+          <circle class="countdown__circle-bg" cx="60" cy="60" r="54"></circle>
+          <circle
+            class="countdown__circle-progress"
+            cx="60"
+            cy="60"
+            r="54"
+            stroke-dasharray="339.292"
+            stroke-dashoffset="339.292"
+          ></circle>
+        </svg>
+        <div class="countdown__label">
+          <div class="countdown__value">0</div>
+          <div class="countdown__unit">Minutes</div>
+        </div>
+      </div>
+
+      <div class="countdown__item countdown__item--seconds">
+        <svg class="countdown__circle">
+          <circle class="countdown__circle-bg" cx="60" cy="60" r="54"></circle>
+          <circle
+            class="countdown__circle-progress"
+            cx="60"
+            cy="60"
+            r="54"
+            stroke-dasharray="339.292"
+            stroke-dashoffset="339.292"
+          ></circle>
+        </svg>
+        <div class="countdown__label">
+          <div class="countdown__value">0</div>
+          <div class="countdown__unit">Seconds</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
