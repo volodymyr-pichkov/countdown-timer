@@ -21,6 +21,6 @@ Responsive Design
 
 Clone repository:
 
-1) git clone <https://github.com/volodymyr-pichkov/countdown-timer-app.git>
+1) git clone <https://github.com/volodymyr-pichkov/countdown-timer.git>
 2) cd <countdown-timer>
 3) Run a live server
